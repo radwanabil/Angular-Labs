@@ -1,0 +1,24 @@
+<body>
+  <div class="contenedor">
+    <div id="slider">
+      <div class="slide active">
+        <img
+          src="https://p4.wallpaperbetter.com/wallpaper/439/553/103/minimalist-minimal-art-fox-night-wallpaper-preview.jpg"
+          alt="Imagen 1"
+        />
+      </div>
+      <div class="slide">
+        <img src="https://fondosmil.com/fondo/13706.jpg" alt="Imagen 2" />
+      </div>
+      <div class="slide">
+        <img src="https://fondosmil.com/fondo/13698.jpg" alt="Imagen 3" />
+      </div>
+    </div>
+    <div class="buttons">
+      <input type="button" value="Next" (click)="showNextImage()" />
+      <input type="button" value="Prev" (click)="showPrevImage()" />
+      <input type="button" value="Slide" (click)="startSlide()" />
+      <input type="button" value="Stop" (click)="stopSlide()" />
+    </div>
+  </div>
+</body>
