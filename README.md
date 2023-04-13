@@ -1,2 +1,3 @@
 # Angular-Labs
-## ![Lab 2](lab2.gif)
+## Lab2
+![Lab 2](lab2.gif)
