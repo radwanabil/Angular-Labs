@@ -1,0 +1,42 @@
+<div class="login-box">
+  <h2>Registeration Form</h2>
+  <div class="form">
+    <div class="user-box">
+      <input
+        type="text"
+        placeholder="Name"
+        [(ngModel)]="username"
+        [ngClass]="{
+          right: username.length >= 3,
+          wrong: username.length < 3 && username
+        }"
+      />
+      <label>Username</label>
+    </div>
+    <div class="user-box">
+      <input
+        type="text"
+        placeholder="Age"
+        [(ngModel)]="age"
+        [ngClass]="{
+          right: +age > 20 && +age < 40 && age,
+          wrong: (+age <= 20 || +age >= 40) && age
+        }"
+      />
+      <label>Age</label>
+    </div>
+
+    <div class="btn">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <div><input type="button" value="Submit" class="add action-button" (click)="sendData()"/></div>
+
+    </div>
+
+
+  </div>
+</div>
+
+

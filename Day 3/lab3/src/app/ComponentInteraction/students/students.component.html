@@ -1,0 +1,16 @@
+<table class="table text-center">
+  <thead>
+    <tr>
+      <th scope="row">Name</th>
+      <th scope="row">Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let student of DataFromParent">
+      <td>{{ student.name }}</td>
+      <td>{{ student.age }}</td>
+    </tr>
+  </tbody>
+</table>
+
+

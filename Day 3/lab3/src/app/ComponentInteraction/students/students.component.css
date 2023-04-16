@@ -1,0 +1,18 @@
+table{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#212121;
+  background-color: rgba(255, 255, 255, 0.397);
+  border-radius: 20px;
+  width: 500px !important;
+}
+th{
+  width: 500px !important;
+}
+tbody{
+  width: 500px !important;
+}
+td{
+  width: 500px !important;
+}
