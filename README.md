@@ -1,8 +1,8 @@
 # Angular-Labs
-## 1-Registeration Form
 
 
-### lab 2
+
+### Lab 2
 
 https://user-images.githubusercontent.com/65567343/232319582-fdc74e1e-745a-435e-b050-1a8c8366fe78.mp4
 
