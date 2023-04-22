@@ -1,0 +1,23 @@
+
+  <table class="table mx-auto table-striped d-flex justify-content-center text-center">
+    <thead class="table-dark">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of Students" class="text-center">
+        <td>{{ student.name }}</td>
+        <td>{{ student.age }}</td>
+        <td>{{ student.email }}</td>
+        <td>{{ student.phone }}</td>
+        <td> <a routerLinkActive="active" routerLink="/students/{{ student.id }}">Details</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+
