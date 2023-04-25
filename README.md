@@ -20,3 +20,5 @@ https://user-images.githubusercontent.com/65567343/232319540-ce1eadc0-e1b3-4e2e-
 
 https://user-images.githubusercontent.com/65567343/232515887-51cba1e7-ac62-44e1-a10c-c3234ec683cc.mp4
 
+### Lab 5 
+https://github.com/radwanabil/Angular-Labs/blob/master/Lab5.mp4
