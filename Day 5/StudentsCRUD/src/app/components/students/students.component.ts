@@ -9,11 +9,6 @@ import { DataService } from 'src/app/services/data.service';
 export class StudentsComponent implements OnInit {
   Students:any;
   constructor(public myService:DataService){
-    // console.log(myService.GetAllUsers());
-    // myService.GetAllUsers().subscribe(
-    //   (data)=>{console.log(data)},
-    //   (err)=>{console.log(err)}
-    //   )
 
   }
   ngOnInit(): void {
